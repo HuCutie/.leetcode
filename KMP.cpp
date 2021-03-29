@@ -24,7 +24,7 @@ void getNext(int * next, string & pat)
     next[0] = -1;
     for(int i = 1; i < pat.length(); i++)
     {
-        while(j != -1 && pat[j + 1] != pat[i])
+        while(j > 0 && pat[j + 1] != pat[i])
         {
             j = next[j];
         }
@@ -49,20 +49,22 @@ int KMP(const string & txt, string & pat, int * next)
         {
             j++;
         }
-        if(j == pat.length() - 1) return j;
+        if(j == pat.length() - 1) 
+            return i - j;
     }
     return -1;
 }
 
 int main()
 {
-    const string txt = "abcdabceabcdabcf";
-    string pat = "abcdabcf";
+    const string txt = "a";
+    string pat = "a";
     int next[8];
-    cout << BFSearch(txt, pat) << endl;
+    //cout << BFSearch(txt, pat) << endl;
     getNext(next, pat);
+    cout << "next[] : ";
     for(int i = 0; i < pat.length(); i++)
-        cout << next[i] + 1 << " ";
+        cout << next[i]<< " ";
     cout << endl;
     cout << KMP(txt, pat, next) << endl;
     return 0;
