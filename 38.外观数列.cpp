@@ -9,16 +9,22 @@ class Solution {
 public:
     string countAndSay(int n) {
         if(n == 1) return "1";
-        string buffer = countAndSay(n - 1);
-        int length = buffer.length();
-        int start = 0;
-        for(int i = 1; i < length + 1; i++)
+        string previous = countAndSay(n - 1);
+        string result = "";
+        int count = 1;
+        for(int i = 0; i < previous.length(); i++)
         {
-            if(i == length)
+            if(previous[i] == previous[i + 1])
             {
-                buffer
+                count++;
+            }
+            else
+            {
+                result += to_string(count) + previous[i];
+                count = 1;
             }
         }
+        return result;
     }
 };
 // @lc code=end
