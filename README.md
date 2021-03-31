@@ -5,3 +5,6 @@ LeetCode practice, everyday making progress.
   
 2021/03/26
   KMP
+  
+2021/03/31
+  NewTonIter
