@@ -2,6 +2,7 @@
  * @lc app=leetcode.cn id=27 lang=cpp
  *
  * [27] 移除元素
+ * 设置哨兵，可在一次遍历后完成操作
  */
 
 // @lc code=start

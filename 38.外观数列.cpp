@@ -2,6 +2,9 @@
  * @lc app=leetcode.cn id=38 lang=cpp
  *
  * [38] 外观数列
+ * 递归得到外观数列
+ * 首先需要得到上一个外观数列串previous；
+ * 遍历这个串，对其中连续的相同数字进行计数
  */
 
 // @lc code=start

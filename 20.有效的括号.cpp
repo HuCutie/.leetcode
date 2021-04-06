@@ -2,6 +2,7 @@
  * @lc app=leetcode.cn id=20 lang=cpp
  *
  * [20] 有效的括号
+ * 使用栈的形式
  */
 
 // @lc code=start

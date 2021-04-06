@@ -2,6 +2,7 @@
  * @lc app=leetcode.cn id=70 lang=cpp
  *
  * [70] 爬楼梯
+ * Fibnacci数列，使用循环能得到时间复杂度和空间复杂度最低的解法
  */
 
 // @lc code=start

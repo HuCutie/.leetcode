@@ -2,6 +2,10 @@
  * @lc app=leetcode.cn id=1 lang=cpp
  *
  * [1] 两数之和
+    一遍哈希表
+    遍历，在数组里查找是否存在target - nums[i]
+        若存在，给返回结果的两项分别设置值，返回
+        若不存在，将该项插入至哈希表
  */
 
 // @lc code=start

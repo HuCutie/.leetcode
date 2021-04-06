@@ -2,6 +2,9 @@
  * @lc app=leetcode.cn id=28 lang=cpp
  *
  * [28] 实现 strStr()
+ * KMP算法
+ * 一次外层遍历，得到next数组中的一项
+ *  对s[i]和s[j]进行比较，相同则共同加一，否则j = next[j]，进行回溯
  */
 
 // @lc code=start

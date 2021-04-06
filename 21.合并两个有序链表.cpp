@@ -2,6 +2,8 @@
  * @lc app=leetcode.cn id=21 lang=cpp
  *
  * [21] 合并两个有序链表
+ * 依次比较、插入
+ * 注意结尾的拼接
  */
 
 // @lc code=start

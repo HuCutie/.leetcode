@@ -2,6 +2,7 @@
  * @lc app=leetcode.cn id=13 lang=cpp
  *
  * [13] 罗马数字转整数
+ * 遍历，碰到特殊符号时进行下一位的判断即可
  */
 
 // @lc code=start

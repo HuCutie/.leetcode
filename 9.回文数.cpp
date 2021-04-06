@@ -2,6 +2,8 @@
  * @lc app=leetcode.cn id=9 lang=cpp
  *
  * [9] 回文数
+    负数、整十数和0直接返回；
+    按照反转的方法进行判断，注意每次*10后的溢出
  */
 
 // @lc code=start
