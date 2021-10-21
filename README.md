@@ -13,3 +13,9 @@ LeetCode practice, everyday making progress.
   std::vector
   std::stack
   Recursion
+
+2021/10/21
+  bit operation:  
+  x ^ 0s = x      x & 0s = 0      x | 0s = x
+  x ^ 1s = ~x     x & 1s = x      x | 1s = 1s
+  x ^ x = 0       x & x = x       x | x = x
