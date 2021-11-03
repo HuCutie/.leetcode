@@ -49,3 +49,7 @@ x | x = x
 `find()`: get iterator to element  
 &nbsp;&nbsp;&nbsp;&nbsp;
 `count()`: count elements with a specific key  
+&nbsp;&nbsp;&nbsp;&nbsp;
+`erase()`: erase elements  
+&nbsp;&nbsp;&nbsp;&nbsp;
+`clear()`: clear content  
